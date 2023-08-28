@@ -16,7 +16,7 @@ I have created 2 types of unit tests. A standard unit test and what they call a 
 
 The unit tests take an Object and simulates a real request and validates the results. When maven finishing building, it will execute the unit test class. You should see the following:
 
-
+```
 [INFO] --- maven-surefire-plugin:3.0.0:test (default-test) @ pet-store ---
 [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
 [INFO]
@@ -46,6 +46,7 @@ Once the tests are finished, it will print out the results.
 [INFO]
 [INFO] --- maven-jar-plugin:3.3.0:jar (default-jar) @ pet-store ---
 [INFO] Building jar: / workspace-spring-tool-suite/pet-store/target/pet-store-0.0.1-SNAPSHOT.jar
+```
 
 From the output above you can see: 
 Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
